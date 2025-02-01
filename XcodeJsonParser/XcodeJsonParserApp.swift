@@ -2,7 +2,7 @@
 //  XcodeJsonParserApp.swift
 //  XcodeJsonParser
 //
-//  Created by Yasin Akbas on 18.12.2024.
+//  Created by Yasin Akbas on 1.02.2025.
 //
 
 import SwiftUI

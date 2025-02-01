@@ -1,6 +1,6 @@
 //
 //  SourceEditorExtension.swift
-//  JsonParser
+//  JsonParserExtension
 //
 //  Created by Yasin Akbas on 1.02.2025.
 //

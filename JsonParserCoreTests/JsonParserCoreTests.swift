@@ -1,14 +1,14 @@
 //
-//  XcodeJsonParserTests.swift
-//  XcodeJsonParserTests
+//  JsonParserCoreTests.swift
+//  JsonParserCoreTests
 //
-//  Created by Yasin Akbas on 18.12.2024.
+//  Created by Yasin Akbas on 1.02.2025.
 //
 
 import XCTest
-@testable import XcodeJsonParser
+@testable import JsonParserCore
 
-final class XcodeJsonParserTests: XCTestCase {
+final class JsonParserCoreTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
