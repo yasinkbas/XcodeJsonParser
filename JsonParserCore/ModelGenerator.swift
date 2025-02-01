@@ -24,11 +24,9 @@ class ModelGenerator {
 
             for item in array {
                 for key in item.keys {
-                    combinedKeys[key] = true
+                    combinedKeys[key] = combinedKeys[key] ?? true
                 }
-            }
 
-            for item in array {
                 for key in combinedKeys.keys {
                     if item[key] == nil {
                         combinedKeys[key] = false
@@ -89,15 +87,11 @@ class ModelGenerator {
 
             for item in array {
                 for key in item.keys {
-                    combinedKeys[key] = true
+                    combinedKeys[key] = combinedKeys[key] ?? true
                 }
-            }
 
-            for item in array {
-                for key in combinedKeys.keys {
-                    if item[key] == nil {
-                        combinedKeys[key] = false
-                    }
+                for key in combinedKeys.keys where item[key] == nil {
+                    combinedKeys[key] = false
                 }
             }
 
